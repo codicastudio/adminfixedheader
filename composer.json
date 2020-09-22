@@ -1,0 +1,39 @@
+{
+  "name": "codicastudio/adminfixedheader",
+  "description": "A random Codica Studio package.",
+  "keywords": [
+      ""
+  ],
+  "homepage": "https://github.com/codicastudio/adminfixedheader",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Michael J Brown",
+          "email": "mbrown@codicastudio.com",
+          "homepage": "https://codicastudio.com",
+          "role": "Developer"
+      }
+  ],
+
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "codicastudio/adminresponsive": "~0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "NovaFixedBars\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "NovaFixedBars\\NovaFixedBarsServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
