@@ -1,9 +1,6 @@
 {
   "name": "codica-studio/adminfixedheader",
   "description": "A random Codica Studio package.",
-  "keywords": [
-      ""
-  ],
   "homepage": "https://github.com/codicastudio/adminfixedheader",
   "license": "MIT",
   "authors": [
