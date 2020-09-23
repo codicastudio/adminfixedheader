@@ -1,10 +1,10 @@
 {
-  "name": "codicastudio/adminfixedheader",
+  "name": "codica-studio/adminfixedheader",
   "description": "A random Codica Studio package.",
   "keywords": [
       ""
   ],
-  "homepage": "https://github.com/codicastudio/adminfixedheader",
+  "homepage": "https://github.com/codica-studio/adminfixedheader",
   "license": "MIT",
   "authors": [
       {
@@ -17,7 +17,7 @@
 
   "require": {
     "php": "^7.4 || ^8.0",
-    "codicastudio/adminresponsive": "~0.6"
+    "codica-studio/adminresponsive": "~0.6"
   },
   "autoload": {
     "psr-4": {
